@@ -197,7 +197,7 @@ body {
   margin-right: 20px;
   border-radius: 0 4px 4px 0;
   background-color: #30303D;
-  background-image: url('/icons/copy.svg');
+  background-image: url('./icons/copy.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 14px 14px;
@@ -357,8 +357,8 @@ body {
   width: 100px;
   height: 108.62px;
   display: inline-block;
-  -webkit-mask: url(/icons/hexagon.svg) no-repeat center;
-  mask: url(/icons/hexagon.svg) no-repeat center;
+  -webkit-mask: url(./icons/hexagon.svg) no-repeat center;
+  mask: url(./icons/hexagon.svg) no-repeat center;
 }
 
 .Sidebar_Fullname {
@@ -683,8 +683,8 @@ body {
 
 .Header_Buttons_MaskIcon.burger {
   &:after {
-    -webkit-mask: url(/icons/burger.svg) no-repeat center;
-    mask: url(/icons/burger.svg) no-repeat center;
+    -webkit-mask: url(./icons/burger.svg) no-repeat center;
+    mask: url(./icons/burger.svg) no-repeat center;
   }
 }
 
@@ -1101,42 +1101,42 @@ body {
   z-index: 0;
   background-color: #48BFFF;
   background-size: 115px;
-  -webkit-mask: url(/icons/fon.svg) no-repeat center;
-  mask: url(/icons/fon.svg) no-repeat center;
+  -webkit-mask: url(./icons/fon.svg) no-repeat center;
+  mask: url(./icons/fon.svg) no-repeat center;
 }
 
 .WalletCard_BackgroundIcon.bch {
   background-color: #61E18B;
   opacity: .8;
-  -webkit-mask: url(/icons/btc.svg) no-repeat center;
-  mask: url(/icons/btc.svg) no-repeat center;
+  -webkit-mask: url(./icons/btc.svg) no-repeat center;
+  mask: url(./icons/btc.svg) no-repeat center;
 
 }
 .WalletCard_BackgroundIcon.btc {
   background-color: #FFB95B;
   opacity: .8;
-  -webkit-mask: url(/icons/btc.svg) no-repeat center;
-  mask: url(/icons/btc.svg) no-repeat center;
+  -webkit-mask: url(./icons/btc.svg) no-repeat center;
+  mask: url(./icons/btc.svg) no-repeat center;
 }
 .WalletCard_BackgroundIcon.eth {
   background-color: #636369;
   opacity: .7;
-  -webkit-mask: url(/icons/eth.svg) no-repeat center;
-  mask: url(/icons/eth.svg) no-repeat center;
+  -webkit-mask: url(./icons/eth.svg) no-repeat center;
+  mask: url(./icons/eth.svg) no-repeat center;
 }
 
 .WalletCard_BackgroundIcon.usd {
   background-color: #48BFFF;
-  -webkit-mask: url(/icons/usd.svg) no-repeat center;
-  mask: url(/icons/usd.svg) no-repeat center;
+  -webkit-mask: url(./icons/usd.svg) no-repeat center;
+  mask: url(./icons/usd.svg) no-repeat center;
 }
 
 .WalletCard_BackgroundIcon.statistic {
   background-color: #58D882;
   bottom: -10px;
   right: 0;
-  -webkit-mask: url(/icons/statistic.svg) no-repeat center;
-  mask: url(/icons/statistic.svg) no-repeat center;
+  -webkit-mask: url(./icons/statistic.svg) no-repeat center;
+  mask: url(./icons/statistic.svg) no-repeat center;
 }
 
 .WalletCard_BackgroundIcon.statisticBlue {
@@ -1144,8 +1144,8 @@ body {
   right: 0;
   background-color: #B6D5E4;
   opacity: .45;
-  -webkit-mask: url(/icons/statistic.svg) no-repeat center;
-  mask: url(/icons/statistic.svg) no-repeat center;
+  -webkit-mask: url(./icons/statistic.svg) no-repeat center;
+  mask: url(./icons/statistic.svg) no-repeat center;
 }
 
 .StatisticCard_Container {
@@ -1268,15 +1268,15 @@ body {
 }
 
 .StatisticCard_BackgroundIcon.star {
-  -webkit-mask: url(/icons/star.svg) no-repeat center;
-  mask: url(/icons/star.svg) no-repeat center;
+  -webkit-mask: url(./icons/star.svg) no-repeat center;
+  mask: url(./icons/star.svg) no-repeat center;
 }
 
 .StatisticCard_BackgroundIcon.statistic {
   bottom: -10px;
   right: 0;
-  -webkit-mask: url(/icons/statistic.svg) no-repeat center;
-  mask: url(/icons/statistic.svg) no-repeat center;
+  -webkit-mask: url(./icons/statistic.svg) no-repeat center;
+  mask: url(./icons/statistic.svg) no-repeat center;
 }
 
 .StatisticCard_CommonContainer {
@@ -1686,8 +1686,8 @@ body {
   right: -40px;
   cursor: pointer;
   background-color: #EFEFEF;
-  -webkit-mask: url(/icons/closeIcon.svg) no-repeat center;
-  mask: url(/icons/closeIcon.svg) no-repeat center;
+  -webkit-mask: url(./icons/closeIcon.svg) no-repeat center;
+  mask: url(./icons/closeIcon.svg) no-repeat center;
   &:hover {
     background-color: #3B3B47;
   }
@@ -2531,20 +2531,20 @@ body {
 }
 
 .Investitions_History_TransactionIconContainer.confirmed {
-  -webkit-mask: url(/icons/confirmed.svg) no-repeat center;
-  mask: url(/icons/confirmed.svg) no-repeat center;
+  -webkit-mask: url(./icons/confirmed.svg) no-repeat center;
+  mask: url(./icons/confirmed.svg) no-repeat center;
   background-color: #64BE85;
 }
 
 .Investitions_History_TransactionIconContainer.pending {
-  -webkit-mask: url(/icons/pending.svg) no-repeat center;
-  mask: url(/icons/pending.svg) no-repeat center;
+  -webkit-mask: url(./icons/pending.svg) no-repeat center;
+  mask: url(./icons/pending.svg) no-repeat center;
   background-color: #F9AC26;
 }
 
 .Investitions_History_TransactionIconContainer.rejected {
-  -webkit-mask: url(/icons/rejected.svg) no-repeat center;
-  mask: url(/icons/rejected.svg) no-repeat center;
+  -webkit-mask: url(./icons/rejected.svg) no-repeat center;
+  mask: url(./icons/rejected.svg) no-repeat center;
   background-color: #F54E70;
 }
 
@@ -2702,8 +2702,8 @@ body {
   left: 0;
   right: 0;
   top: 80px;
-  -webkit-mask: url(/icons/hexagon.svg) no-repeat center;
-  mask: url(/icons/hexagon.svg) no-repeat center;
+  -webkit-mask: url(./icons/hexagon.svg) no-repeat center;
+  mask: url(./icons/hexagon.svg) no-repeat center;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -2748,7 +2748,7 @@ body {
   margin-right: auto;
   left: 0;
   right: 0;
-  background-image: url(/icons/hexagon.svg);
+  background-image: url(./icons/hexagon.svg);
   -webkit-filter: drop-shadow(0 3px 6px rgba(172, 172, 172, .2));
   filter: drop-shadow(0 3px 6px rgba(172, 172, 172, .2));
   background-size: cover;
@@ -2812,8 +2812,8 @@ body {
 
 .Carier_statisticCards_HexagonIconContainer {
   background-color: #fff;
-  -webkit-mask: url(/icons/hexagon.svg) no-repeat center;
-  mask: url(/icons/hexagon.svg) no-repeat center;
+  -webkit-mask: url(./icons/hexagon.svg) no-repeat center;
+  mask: url(./icons/hexagon.svg) no-repeat center;
   width: 48px;
   height: 52px;
   -webkit-box-align: center;
@@ -3258,8 +3258,8 @@ body {
 .Profile_Card_Avatar {
   width: 116px;
   height: 127px;
-  -webkit-mask: url(/icons/hexagon.svg) no-repeat center;
-  mask: url(/icons/hexagon.svg) no-repeat center;
+  -webkit-mask: url(./icons/hexagon.svg) no-repeat center;
+  mask: url(./icons/hexagon.svg) no-repeat center;
   margin-right: 30px;
   display: block;
   @media only screen and (max-width: 925px) {
@@ -3693,8 +3693,8 @@ body {
 }
 
 .Team_Partners_Partner_Avatar {
-  -webkit-mask: url(/icons/hexagon.svg) no-repeat center;
-  mask: url(/icons/hexagon.svg) no-repeat center;
+  -webkit-mask: url(./icons/hexagon.svg) no-repeat center;
+  mask: url(./icons/hexagon.svg) no-repeat center;
   height: 50px;
   width: 46px;
   margin-right: 21.5px;
@@ -3778,8 +3778,8 @@ body {
 
 .Team_StatisticCards_HexagonIconContainer {
   background-color: #fff;
-  -webkit-mask: url(/icons/hexagon.svg) no-repeat center;
-  mask: url(/icons/hexagon.svg) no-repeat center;
+  -webkit-mask: url(./icons/hexagon.svg) no-repeat center;
+  mask: url(./icons/hexagon.svg) no-repeat center;
   width: 48px;
   height: 52px;
   -webkit-box-align: center;
